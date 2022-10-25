@@ -1,0 +1,800 @@
+<!doctype html>
+<html  lang="en-US" class="no-js">
+
+<!-- Mirrored from www.biomarin.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 23 Oct 2022 14:40:59 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(){this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this._triggerListener.bind(this),this.touchStartHandler=this._onTouchStart.bind(this),this.touchMoveHandler=this._onTouchMove.bind(this),this.touchEndHandler=this._onTouchEnd.bind(this),this.clickHandler=this._onClick.bind(this),this.interceptedClicks=[],window.addEventListener("pageshow",(e=>{this.persisted=e.persisted})),window.addEventListener("DOMContentLoaded",(()=>{this._preconnect3rdParties()})),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){document.hidden?e._triggerListener():(this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventHandler,{passive:!0}))),window.addEventListener("touchstart",e.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",e.touchStartHandler),document.addEventListener("visibilitychange",e.userEventHandler))}_removeUserInteractionListener(){this.triggerEvents.forEach((e=>window.removeEventListener(e,this.userEventHandler,{passive:!0}))),document.removeEventListener("visibilitychange",this.userEventHandler)}_onTouchStart(e){"HTML"!==e.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),e.target.addEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"onclick","rocket-onclick"))}_onTouchMove(e){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),e.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"rocket-onclick","onclick")}_onTouchEnd(e){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}_onClick(e){e.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"rocket-onclick","onclick"),this.interceptedClicks.push(e),e.preventDefault(),e.stopPropagation(),e.stopImmediatePropagation()}_replayClicks(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach((e=>{e.target.dispatchEvent(new MouseEvent("click",{view:e.view,bubbles:!0,cancelable:!0}))}))}_renameDOMAttribute(e,t,n){e.hasAttribute&&e.hasAttribute(t)&&(event.target.setAttribute(n,event.target.getAttribute(t)),event.target.removeAttribute(t))}_triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}_preconnect3rdParties(){let e=[];document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t=>{if(t.hasAttribute("src")){const n=new URL(t.html).origin;n!==location.origin&&e.push({src:n,crossOrigin:t.crossOrigin||"module"===t.getAttribute("data-rocket-type")})}})),e=[...new Map(e.map((e=>[JSON.stringify(e),e]))).values()],this._batchInjectResourceHints(e,"preconnect")}async _loadEverythingNow(){this.lastBreath=Date.now(),this._delayEventListeners(),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async);try{await this._triggerDOMContentLoaded(),await this._triggerWindowLoad()}catch(e){}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this._replayClicks()}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._littleBreath(),new Promise((t=>{const n=document.createElement("script");[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type"),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t());try{e.parentNode.replaceChild(n,e)}catch(e){t()}}))}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){this._batchInjectResourceHints([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}_batchInjectResourceHints(e,t){var n=document.createDocumentFragment();e.forEach((e=>{if(e.src){const i=document.createElement("link");i.href=e.src,i.rel=t,"preconnect"!==t&&(i.as="script"),e.getAttribute&&"module"===e.getAttribute("data-rocket-type")&&(i.crossOrigin=!0),e.crossOrigin&&(i.crossOrigin=e.crossOrigin),n.appendChild(i)}})),document.head.appendChild(n)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){let n=e[t];Object.defineProperty(e,t,{get:()=>n||function(){},set(i){e["rocket"+t]=n=i}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._littleBreath(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._littleBreath(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._littleBreath(),window.dispatchEvent(new Event("rocket-load")),await this._littleBreath(),window.rocketonload&&window.rocketonload(),await this._littleBreath(),this.allJQueries.forEach((e=>e(window).trigger("rocket-jquery-load"))),await this._littleBreath();const e=new Event("rocket-pageshow");e.persisted=this.persisted,window.dispatchEvent(e),await this._littleBreath(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript,i=document.createRange(),r=n.parentElement;let o=e.get(n);void 0===o&&(o=n.nextSibling,e.set(n,o));const s=document.createDocumentFragment();i.setStart(s,0),s.appendChild(i.createContextualFragment(t)),r.insertBefore(s,o)}}async _littleBreath(){Date.now()-this.lastBreath>45&&(await this._requestAnimFrame(),this.lastBreath=Date.now())}async _requestAnimFrame(){return document.hidden?new Promise((e=>setTimeout(e))):new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts;e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();</script>
+    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BioMarin Pharmaceutical Inc.</title>
+    <link data-minify="1" rel="stylesheet" href="wp-content/cache/min/1/wp-content/themes/biomarin/build/css/app.07f5109643.css?ver=1666360028">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.html" crossorigin="use-credentials">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
+	<link rel="preload" href="wp-content/themes/biomarin/build/fonts/8bf38806-3423-4080-b38f-d08542f7e4ac.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" href="wp-content/themes/biomarin/build/fonts/bf8f8741-5f64-4db9-a877-a44624092e68.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" href="wp-content/themes/biomarin/build/fonts/26091050-06ef-4fd5-b199-21b27c0ed85e.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <script type="rocketlazyloadscript">document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/, 'js');</script>
+	  <meta name='robots' content='max-image-preview:large' />
+
+	<meta name="description" content="BioMarin is a world leader in developing and commercializing innovative biopharmaceuticals for rare diseases driven by genetic causes." />
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<link rel="canonical" href="index.html" />
+	<link rel="next" href="page/2/index.html" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="BioMarin Pharmaceutical Inc." />
+	<meta property="og:description" content="BioMarin is a world leader in developing and commercializing innovative biopharmaceuticals for rare diseases driven by genetic causes." />
+	<meta property="og:url" content="https://www.biomarin.com/" />
+	<meta property="og:site_name" content="BioMarin" />
+	<meta property="og:image" content="https://www.biomarin.com/wp-content/uploads/2020/09/biomarin-og.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.biomarin.com/#organization","name":"BioMarin Pharmaceutical Inc.","url":"https://www.biomarin.com/","sameAs":[],"logo":{"@type":"ImageObject","@id":"https://www.biomarin.com/#logo","inLanguage":"en-US","url":"https://www.biomarin.com/wp-content/uploads/2020/07/biomarin.svg","width":300,"height":43,"caption":"BioMarin Pharmaceutical Inc."},"image":{"@id":"https://www.biomarin.com/#logo"}},{"@type":"WebSite","@id":"https://www.biomarin.com/#website","url":"https://www.biomarin.com/","name":"BioMarin","description":"","publisher":{"@id":"https://www.biomarin.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":"https://www.biomarin.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"CollectionPage","@id":"https://www.biomarin.com/#webpage","url":"https://www.biomarin.com/","name":"BioMarin Pharmaceutical Inc.","isPartOf":{"@id":"https://www.biomarin.com/#website"},"about":{"@id":"https://www.biomarin.com/#organization"},"description":"BioMarin is a world leader in developing and commercializing innovative biopharmaceuticals for rare diseases driven by genetic causes.","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.biomarin.com/"]}]}]}</script>
+
+
+<link rel='dns-prefetch' href='http://static.addtoany.com/' />
+<link rel='dns-prefetch' href='http://ajax.googleapis.com/' />
+
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link data-minify="1" rel='stylesheet' id='cookie-law-info-css'  href='wp-content/cache/min/1/wp-content/plugins/webtoffee-gdpr-cookie-consent/public/css/cookie-law-info-publicd962.css?ver=1666360029' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='cookie-law-info-gdpr-css'  href='wp-content/cache/min/1/wp-content/plugins/webtoffee-gdpr-cookie-consent/public/css/cookie-law-info-gdprd962.css?ver=1666360029' type='text/css' media='all' />
+<style id='cookie-law-info-gdpr-inline-css' type='text/css'>
+.cli-modal-content, .cli-tab-content { background-color: #ffffff; }.cli-privacy-content-text, .cli-modal .cli-modal-dialog, .cli-tab-container p, a.cli-privacy-readmore { color: #000000; }.cli-tab-header { background-color: #f2f2f2; }.cli-tab-header, .cli-tab-header a.cli-nav-link,span.cli-necessary-caption,.cli-switch .cli-slider:after { color: #000000; }.cli-switch .cli-slider:before { background-color: #ffffff; }.cli-switch input:checked + .cli-slider:before { background-color: #ffffff; }.cli-switch .cli-slider { background-color: #e3e1e8; }.cli-switch input:checked + .cli-slider { background-color: #28a745; }.cli-modal-close svg { fill: #000000; }.cli-tab-footer .wt-cli-privacy-accept-all-btn { background-color: #00acad; color: #ffffff}.cli-tab-footer .wt-cli-privacy-accept-btn { background-color: #00acad; color: #ffffff}.cli-tab-header a:before{ border-right: 1px solid #000000; border-bottom: 1px solid #000000; }
+</style>
+<link rel='stylesheet' id='addtoany-css'  href='wp-content/plugins/add-to-any/addtoany.min.css' type='text/css' media='all' />
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='addtoany-core-js-before'>
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' async src='../static.addtoany.com/menu/page.js' id='addtoany-core-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js' id='jquery-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' async src='wp-content/plugins/add-to-any/addtoany.min.js' id='addtoany-jquery-js'></script>
+<script type='text/javascript' id='cookie-law-info-js-extra'>
+/* <![CDATA[ */
+var Cli_Data = {"nn_cookie_ids":["test_cookie"],"non_necessary_cookies":{"non-necessary":["test_cookie"]},"cookielist":{"necessary":{"id":69,"status":true,"priority":3,"title":"Functional Cookies","strict":true,"default_state":false,"ccpa_optout":false,"loadonstart":true},"non-necessary":{"id":70,"status":true,"priority":2,"title":"Analytics Cookies","strict":false,"default_state":false,"ccpa_optout":false,"loadonstart":false}},"ajax_url":"https:\/\/www.biomarin.com\/wp-admin\/admin-ajax.php","current_lang":"en","security":"a54ea3b089","eu_countries":["GB"],"geoIP":"disabled","use_custom_geolocation_api":"","custom_geolocation_api":"https:\/\/geoip.cookieyes.com\/geoip\/checker\/result.php","consentVersion":"1","strictlyEnabled":["necessary","obligatoire"],"cookieDomain":"","privacy_length":"250","ccpaEnabled":"1","ccpaRegionBased":"1","ccpaBarEnabled":"","ccpaType":"ccpa_gdpr","triggerDomRefresh":"","secure_cookies":""};
+var log_object = {"ajax_url":"https:\/\/www.biomarin.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-content/plugins/webtoffee-gdpr-cookie-consent/public/js/cookie-law-info-public.js' id='cookie-law-info-js' defer></script>
+<script type='text/javascript' id='cookie-law-info-ccpa-js-extra'>
+/* <![CDATA[ */
+var ccpa_data = {"opt_out_prompt":"Do you really wish to opt out?","opt_out_confirm":"Confirm","opt_out_cancel":"Cancel"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-content/plugins/webtoffee-gdpr-cookie-consent/admin/modules/ccpa/assets/js/cookie-law-info-ccpa.js' id='cookie-law-info-ccpa-js' defer></script>
+	 <style>.wp-pagenavi{margin:5em 0}.wp-pagenavi .pages{border:1px solid #efefef;border-radius:10px;padding:1em 1.5em;background-color:#fff;margin-right:5px}.wp-pagenavi .current{background-color:#353d98;}.wp-pagenavi .current,.wp-pagenavi .nextpostslink,.wp-pagenavi .page,.wp-pagenavi .previouspostslink,.wp-pagenavi .prevpostslink{border-radius:10px;margin-right:5px;padding:1em 1.5em;background-color:#003891;color:#fff}.main-content .blurb .gform_wrapper ul li{padding-left:0}.main-content .blurb .gform_wrapper.gf_browser_chrome ul.gform_fields li.gfield input[type=radio]{width:auto!important}.main-content .blurb .gform_wrapper ul li.field_description_below div.ginput_container_checkbox,body .main-content .blurb .gform_wrapper ul li.field_description_below div.ginput_container_radio{padding-left:0}.main-content .blurb .gform_wrapper .main-content .blurbul.gfield_radio li label,.main-content .blurb .gform_wrapper ul.gfield_checkbox li label{font-family:Futura LT W01 Bold,sans-serif}.wp-pagenavi .pages {width: 100%;display: block;margin-bottom: 30px;}ul.link-external li {
+  width: 100%;
+  margin-bottom: 4px;
+}
+
+.inner-content-wrap .block.py-10 + .py-10 { padding-top: 0; }
+.inner-content-wrap .has-quote p { font-size: 1.4em; }
+
+
+ul.link-external li a {
+  background: url("wp-content/themes/biomarin/build/img/icon-external.svg") no-repeat 97% 50% transparent;
+  background-size: 22px;
+  padding: 1em 1em 1em 1.6em;
+  width: 100%;
+  color: #003891;
+  border: 2px solid #d1d1d1;
+  font-size: 18px;
+}
+
+ul.link-external li a:hover {
+  background-color: #efefef;
+}
+
+ul.link-external li time {
+  color: #b50056;
+}.main-content .blurb #awareness-dates ul li { padding-left: 0; }
+.main-content .blurb #awareness-dates ul li:after { display: none; }
+.main-content .blurb #awareness-dates ul.link-external { padding-left: 0; padding-right: 0; }
+.main-content .blurb #awareness-dates ul.link-external li a { margin-bottom: 0;
+font-size: 1.2em;
+padding: 1.2em 3em 1.2em 1.6em;
+line-height: normal;
+text-decoration: none; }
+	.fills .bm-blue-bg{background-color:#25509c!important}.fills .bm-orange-bg{background-color:#f26531!important}.fills .bm-violet-bg{background-color:#a9218e!important}.fills .bm-red-bg{background-color:#ed1849!important}.fills .bm-purple-bg{background-color:#353d98!important}.fills .bm-magenta-bg{background-color:#ed037c!important}.fills .bm-darkblue-bg{background-color:#002e56!important}.fills .bm-cyan-bg{background-color:#0075bf!important}.fills .bm-darkgray-bg{background-color:#646464!important}.fills .bm-gray-bg{background-color:#a0a0a0!important}
+
+      .w-1\/3 {width: 33.333333%; }
+      .w-2\/3 {width: 66.666667%; }
+      .pr-5 {padding-right: 1.25rem; }
+      .has-quote .card { background: none; }
+      .has-quote p { font-size: 1em; }
+      .has-quote .has-clip { margin-top: 30px; background: none; margin-bottom: 30px; }
+      .has-quote > div {
+        border-radius: 6px;
+        background: #0075bf;
+        color:  #ffffff;
+      }
+      .categ a { color: #b50056; }
+      .categ a:hover { text-decoration: underline; }
+      .categ + h2 {     margin: .4em 0 .2em; }
+
+      .link { text-decoration: underline; }
+    .link:hover { text-decoration: none; }
+    .avatar-img { width: 75px; height: 75px; border-radius: 50%; }
+    .thumb-img { min-width: 250px; width: 250px; max-width: 250px; height: 150px; max-height: 150px; border: 1px solid #000; }
+    .block-snip { border-bottom: 1px solid #ddd; }
+    .avatar { min-width: 150px; }
+    .avatar a:hover div:last-child { text-decoration: underline; }
+    .block-snip .mb-2 a { color: #b50056; }
+    .block-snip .mb-2 a:hover { text-decoration: underline; }
+    .block-snip h3 { margin-bottom: 0.2em; }
+    .block-snip h3 a { color: #003891; }
+    .block-snip h3 a:hover { text-decoration: underline; }    
+    .wp-pagination ul li { margin-right: 20px; }
+    .wp-pagination ul li:last-child { margin-right: 0; }
+    .wp-pagination ul li.active a { background: rgba(53,61,138,.06); color: #003891; }
+    .wp-pagination ul li a:hover; { background: rgba(53,61,138,.06); color: #003891; }
+    .wp-pagination ul li a { display: inline-block; border: 1px solid #3d3d3d; font-size: 16px; border-radius: 50%;     width: 30px; height: 30px; text-align: center; }
+    .pagination .wp-pagenavi { margin: 0; display: flex;     align-items: flex-start; }
+    .pagination .wp-pagenavi a:hover { background-color: #b50056; }
+    .hero-post h1,h2,h3,h4,h5 { color: #003891; margin-bottom: 0.6em; }
+    .hero-post-bg { height: 500px; }
+
+    .hero div div.archive-description { margin: auto; width: 100%; }
+    .author-bio-content { margin-bottom: 30px; }
+    .author-bio-content h2 { font-size: 22px; color: #000; margin-bottom: 14px; font-weight: 600; }
+    .author-link { text-decoration: underline; }
+    .author-link:hover { text-decoration: none; }
+    .social-share { border-top: 1px solid #ddd; padding-top: 20px; }
+    .date_cat { min-width: 260px ; text-align: right; }
+
+    .content-default h1, .content-default h2, .content-default h3, .content-default h4, .content-default h5, .content-default h6 { font-weight: 500; }
+    .content-default h1 { font-size: 40px; color: #003891; margin-bottom: 0.6em; }
+    .content-default h2 { font-size: 48px; }
+    .content-default h3 { font-size: 32px; }
+    .content-default h4 { margin-bottom: 0.6em; }
+    .content-default h5 { font-size: 22px; }
+    .content-default h6 { font-size: 18px; color: #003891; }
+    .content-default p { margin-bottom: 1.6em; }
+    .content-default img { margin: 1em 0; max-width: 100%; } 
+    .content-default .wp-caption { width: 100% !important; } 
+    .content-default .wp-caption img { margin-bottom: 5px; }
+    .content-default ul li {
+        font-size: 1.5em;
+        position: relative;
+        margin-bottom: 0.5em;
+        padding-left: 20px;
+    }
+    .content-default .flex li { padding-left: 0; }
+    .content-default .flex li:last-child span { display: none; }
+    .content-default .flex li:after { display: none; }
+    .content-default ul li:after {
+        content: "";
+        position: absolute;
+        top: 13px;
+        left:  0;
+        background:  black;
+        width:  5px;
+        height:  5px;
+        border-radius: 50%;
+    }
+    .content-default ul { margin-bottom: 2em; }
+    .content-default .wp-caption-text { font-size: 16px; font-style: italic;  }
+    .thumb-callout { padding-bottom: 3em; padding-right: 60px; }
+    .thumb-callout .title { color: #003891; font-size: 23px; margin-bottom: 0.3em; }
+    .thumb-callout .bg-cover { width: 100%; max-width: 330px; height: 195px; max-height: 195px; margin-bottom: 2em; background-position: center; }
+    .thumb-callout p { font-size: 16px; }
+
+    .avatar p { font-size: 16px; }
+    .half-bg h3, .half-bg .link { color: #ffffff; }
+    .half-bg {
+        background: rgb(0,0,0);
+        background: linear-gradient(180deg, #B50056 280px, #fff 280px);
+    }
+
+    .single-post .avatar-img { width: 90px; min-width: 90px; height: 90px; margin-bottom: 20px; margin-top: 0; margin-right: 30px; }
+    .max-w-4xl.content-default { padding-left: 100px; }
+
+    .side-nav-column .title { font-size: 18px; color: #003891; margin-bottom: 0.5em; }
+    .side-nav-column ul li a { text-decoration: underline; }
+    .side-nav-column ul li a:hover { text-decoration: none; }
+    .side-nav-column > div { border-bottom: 1px solid #ddd; padding-bottom: 1em; margin-bottom: 2em; }
+    .side-nav-column > div:last-child { margin-bottom: 0; }
+
+    .nav-link-secondary.on .trigger.init-on { right: 70px; }
+
+    .callout-block .link { text-decoration: none; }
+    .callout-block a:hover .title { text-decoration: underline; }
+
+    .hero-blog .btn { margin-top: 30px; }
+     .bm-orange-bg { background-color: #f26531; }
+
+    #footer { position: relative; z-index: 3; }
+    
+    .content-default .responsive-video { overflow: hidden; }
+    .content-default .responsive-video div div { top: -3px !important; position: relative !important; padding-top: 56.3% !important; }
+
+
+
+    /*Menu*/
+    .trigger.init-on { display: inline-block !important; color: #ffffff; position: absolute; right: 50px; top: 0; padding-left: 30px; cursor: pointer; }
+    .nav-link-secondary.show ul li { text-align: left; }
+    .nav-link-secondary.show ul li ul { visibility: visible; opacity: 1; position: relative; width: 100%; }
+    .nav-link-secondary .sec-menu-wrap { display: none; }
+    .nav-link-secondary .sec-menu-wrap.active { display: block; }
+
+    .side-nav.internal-menu .page-title { cursor: pointer; position: relative; z-index: 3; }
+    .side-nav.internal-menu .page-title:after { content: "›"; position: absolute; margin-top: -5px; right: 30px; width: 10px; height: 10px; }
+    .side-nav.internal-menu .page-title.active:after { right: 10px; width: 10px; height: 10px; transform: rotate(90deg); top: 50%; }
+    .side-nav.internal-menu .page-title + div { display: none; position: relative; z-index: 2; }
+    .side-nav.internal-menu .page-title + div a { transition: none; }
+    .side-nav.internal-menu .page-title + div a:last-child { padding-bottom: 10px; }
+    .side-nav.internal-menu ul { padding: 0; }
+    .side-nav.internal-menu ul li a { padding: 0.5em 2em 0.5em; }
+    
+
+    .alt-bg .btn { opacity: 1 !important; }
+
+    @media (min-width: 1281px) {
+        .nav-link-secondary.show ul li ul { top: 0 !important; background: #fff !important; }
+        .nav-link-secondary .sec-menu-wrap { top: 62px; background-color: #fff; position: relative; border-bottom: 1px solid #203880; }
+        .nav-link-secondary.show ul { padding-top: 30px; padding-left: 50px; }
+        .nav-link-secondary.show ul > li { font-size: 1.5em; color: #b50056; }
+        .nav-link-secondary.show ul > li ul li a { padding-left: 0; color: #203880; }
+        .nav-link-secondary.show ul > li ul li { font-size: 16px; }
+        .nav-link-secondary.show ul > li ul { padding-left: 0; padding-right: 10px; }
+    }
+    @media (max-width: 1280px) {
+    /*Mobile Menu Scroll*/
+      .nav-link-secondary.on > ul {
+        overflow-y: scroll;
+        max-height: 100vh; 
+      }
+    }
+
+    .hero-post + .wrap { margin-top: -30px; }
+    @media (max-width: 960px) {
+        .max-w-4xl.content-default { padding-left: 0; }
+    }
+    @media (max-width: 767px) {
+        .hero-post + .wrap { margin-top: 0; }
+        .hero-post.py-16 { padding-bottom: 0; }
+        .date_cat { text-align: left; }
+        .block-snip .avatar { margin-bottom: 20px; }
+        .block-snip .avatar + div .blurb { padding: 20px 0; }
+    }
+
+
+
+    @media (max-width: 767px) {
+        .block-snip .avatar { margin-bottom: 20px; margin-top: 0; }
+        .block-snip .avatar + div .blurb { padding: 20px 0; }
+        .hero-blog div div:last-child { width: 100%; }
+
+        .callout-block { display: block; }
+        .callout-block .link { color: #000; }
+        .callout-block div { width: 100%; }
+        .thumb-callout .bg-cover { max-width: 100%; }
+        .thumb-callout { padding-right: 0; }
+
+        .toggle-locations ul.list-contact.toggle li div:last-child {
+          padding-bottom: 1em;
+          padding-left: 1.4em;
+        }
+    }
+.page-template-templatestemplate-2-column-menu-right-php .toggle-locations .type img { display: none; }
+		 @media (max-width: 767px){
+  .home .hero div div:last-child {
+      margin-top: 180px!important;
+  }
+}
+
+@media (max-width: 767px){
+  .hero.has-gradient:after {
+  		background: linear-gradient(360deg, #003891 60%, rgba(251,251,251,0) 78%)!important;
+  }
+ .hero .btn {
+    background: #b50056;
+}
+	</style>
+     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Corporation",
+  "name": "BioMarin",
+  "alternateName": "Biomarin",
+  "url": "https://www.biomarin.com/",
+  "logo": "https://www.biomarin.com/wp-content/themes/biomarin/build/img/biomarin-logo.jpg",
+  "sameAs": [
+    "https://www.facebook.com/BioMarinOfficial",
+    "https://www.instagram.com/biomarinofficial/",
+    "https://www.youtube.com/channel/UCsJU_aj8_xNFso8ZkfShRJQ/featured",
+    "https://www.linkedin.com/company/biomarin/"
+  ]
+}
+</script>     <script type="text/plain" data-cli-class="cli-blocker-script" data-cli-label="Google Tag Manager"  data-cli-script-type="non-necessary" data-cli-block="true" data-cli-block-if-ccpa-optout="false" data-cli-element-position="head">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KS2R2MS');</script>
+</head>
+
+<body class="home blog">
+  <noscript><iframe data-cli-class="cli-blocker-script" data-cli-label="Google Tag Manager"  data-cli-script-type="non-necessary" data-cli-block="true" data-cli-block-if-ccpa-optout="false" data-cli-element-position="body" data-cli-placeholder="Accept <a class='cli_manage_current_consent'>Analytics Cookies</a> cookies to view the content." data-cli-src="https://www.googletagmanager.com/ns.html?id=GTM-KS2R2MS"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+  <ul id="skip-link">
+    <li><a href="#navigation" class="element-invisible element-focusable">Skip to main navigation</a></li>
+    <li><a href="#content" class="element-invisible element-focusable">Skip to main content</a></li>
+    <li><a href="#footer" class="element-invisible element-focusable">Skip to Footer</a></li>
+  </ul>
+  	<nav role="navigation">
+		<div class="wrap w-full">
+			<div class="pre">
+				<ul class="flex justify-end w-1200 md:justify-start">
+                      <li class=""><a href="blog/index.html">Blog</a></li>
+<li class=""><a href="clinical-trials/index.html">Clinical Trials</a></li>
+<li class=""><a href="contact-us/index.html">Contact Us</a></li>
+<li class=""><a target="_blank" href="https://careers.biomarin.com/">Careers</a></li>
+					
+
+
+
+
+				</ul>
+			</div>
+			<div class="bg-white nav-link relative">
+				<div class="flex justify-between m-auto w-1200 items-center">
+          					<a href="index.html">    			<img src="wp-content/uploads/logo.jpeg" alt="BioMarin Logo" width="250" />
+          <span class="sr-only">Home</span>
+    		  </a>
+					<div id="navigation" class="flex">
+            						        <ul class="flex items-center"><li  class=""><a href="our-motivation/index.html" target="">Our Motivation</a><div><div class="m-auto w-1200 flex"><ul class=''></ul><ul><li  class=""><a href="our-motivation/patient-stories/index.html" target="">Patient Stories</a><ul class=''><li  class=""><a href="our-motivation/patient-stories/annabelle/index.html" target="">Annabelle</a></li><li  class=""><a href="our-motivation/patient-stories/isabel/index.html" target="">Isabel</a></li><li  class=""><a href="our-motivation/patient-stories/matty/index.html" target="">Matty</a></li><li  class=""><a href="our-motivation/patient-stories/miller/index.html" target="">Miller</a></li><li  class=""><a href="our-motivation/patient-stories/sarah/index.html" target="">Sarah</a></li></ul></li></ul><ul><li  class=""><a href="our-motivation/diseases-and-conditions/index.html" target="">Diseases &#038; Conditions</a><ul class=''><li  class=""><a href="our-motivation/diseases-and-conditions/achondroplasia/index.html" target="">Achondroplasia</a></li><li  class=""><a href="our-motivation/diseases-and-conditions/pku/index.html" target="">PKU</a></li><li  class=""><a href="our-motivation/diseases-and-conditions/cln2-disease/index.html" target="">CLN2 Disease</a></li><li  class=""><a href="our-motivation/diseases-and-conditions/mps-vi/index.html" target="">MPS VI</a></li><li  class=""><a href="our-motivation/diseases-and-conditions/mps-iva/index.html" target="">MPS IVA</a></li><li  class=""><a href="our-motivation/diseases-and-conditions/mps-i/index.html" target="">MPS I</a></li></ul></li></ul><ul><li  class=""><a href="our-motivation/patient-and-community-support/index.html" target="">Patient &#038; Community Support</a><ul class=''><li  class=""><a href="our-motivation/patient-and-community-support/trees-of-life/index.html" target="">Trees of Life</a></li><li  class=""><a href="our-motivation/patient-and-community-support/rare-scholars/index.html" target="">RARE Scholars</a></li><li  class=""><a href="our-motivation/patient-and-community-support/in-the-hemophilia-community/index.html" target="">In the Hemophilia Community</a></li><li  class=""><a href="our-motivation/patient-and-community-support/patient-advocacy/index.html" target="">Patient Advocacy</a></li><li  class=""><a href="our-motivation/patient-and-community-support/biomarin-rareconnections/index.html" target="">BioMarin RareConnections™</a></li><li  class=""><a href="our-motivation/patient-and-community-support/grants-donations/index.html" target="">Grants &#038; Donations</a></li></ul></li></ul><ul><li  class=""><a href="our-motivation/resources/index.html" target="">Resource Library</a><ul class=''><li  class=""><a href="our-motivation/resources/professional-organizations/index.html" target="">Professional Organizations</a></li></ul></li></ul></div></div></li><li  class=""><a href="our-science/index.html" target="">Our Science</a><div><div class="m-auto w-1200 flex"><ul class=''></ul><ul><li  class=""><a href="our-science/our-approach/index.html" target="">Our Approach</a><ul class=''><li  class=""><a href="our-science/our-approach/technical-expertise/index.html" target="">Technical Expertise</a></li><li  class=""><a href="our-science/our-approach/indication-expansion/index.html" target="">Indication Expansion</a></li><li  class=""><a href="our-science/our-approach/franchise-building/index.html" target="">Franchise Building</a></li></ul></li></ul><ul><li  class=""><a href="our-science/our-scientists/index.html" target="">Our Scientists</a></li></ul><ul><li  class=""><a href="our-science/our-publications/index.html" target="">Our Publications</a></li></ul><ul><li  class=""><a href="our-science/spotlight/index.html" target="">Science Spotlight</a><ul class=''><li  class=""><a href="blog/hed-advancing-our-understanding-of-gene-therapy-research/index.html" target="">Advancing our understanding of gene therapy research, one publication at a time</a></li><li  class=""><a href="blog/zeroing-in-on-therapeutic-drug-targets/index.html" target="">Zeroing in on Therapeutic Drug Targets</a></li><li  class=""><a href="blog/meet-the-scientist-christian-vettermann-ph-d/index.html" target="">Meet Christian Vettermann, Ph.D.</a></li><li  class=""><a href="blog/biomarin-center-of-technology-empowers-scientists-with-technology-resources-and-collaboration/index.html" target="">Center of Technology (CoTe)</a></li></ul></li></ul><ul><li  class=""><a href="our-science/funding-and-support/index.html" target="">Funding &#038; Support</a><ul class=''><li  class=""><a href="our-science/funding-and-support/independent-medical-education/index.html" target="">Independent Medical Education</a></li><li  class=""><a href="our-science/funding-and-support/independent-research/index.html" target="">Independent and Collaborative Research</a></li><li  class=""><a href="our-science/funding-and-support/grants-and-donations/index.html" target="">Grants &#038; Donations</a></li><li  class=""><a href="our-science/funding-and-support/publication-data-request/index.html" target="">Publication Data Request</a></li></ul></li></ul></div></div></li><li  class=""><a href="our-treatments/index.html" target="">Our Treatments</a><div><div class="m-auto w-1200 flex"><ul class=''></ul><ul><li  class=""><a href="our-treatments/products/index.html" target="">Our Products</a><ul class=''><li  class=""><a href="our-treatments/products/voxzogo/index.html" target="">VOXZOGO™ (vosoritide) Injection for Achondroplasia</a></li><li  class=""><a href="our-treatments/products/palynziq/index.html" target="">PALYNZIQ<sup>®</sup> (pegvaliase-pqpz) Injection for PKU</a></li><li  class=""><a href="our-treatments/products/brineura/index.html" target="">Brineura<sup>®</sup> (cerliponase alfa) for CLN2 Disease</a></li><li  class=""><a href="our-treatments/products/vimizim/index.html" target="">Vimizim<sup>®</sup> (elosulfase alfa) for Morquio A Syndrome (MPS IVA)</a></li><li  class=""><a href="our-treatments/products/kuvan/index.html" target="">Kuvan<sup>®</sup> (sapropterin dihydrochloride) for PKU</a></li><li  class=""><a href="our-treatments/products/aldurazyme-laronidase-for-mps-i/index.html" target="">Aldurazyme<sup>®</sup> (laronidase) for MPS I</a></li><li  class=""><a href="our-treatments/products/naglazyme-galsulfase-for-mps-vi/index.html" target="">Naglazyme<sup>®</sup> (galsulfase) for MPS VI</a></li></ul></li></ul><ul><li  class=""><a href="our-treatments/pipeline/index.html" target="">Our Pipeline</a><ul class=''><li  class=""><a href="our-treatments/pipeline/valoctocogene-roxaparvovec-for-severe-hemophilia-a/index.html" target="">Valoctocogene Roxaparvovec for Severe Hemophilia A</a></li><li  class=""><a href="our-treatments/pipeline/bmn-307-for-pku/index.html" target="">BMN 307 for Phenylketonuria (PKU)</a></li><li  class=""><a href="our-treatments/pipeline/bmn-331-for-hae/index.html" target="">BMN 331 for Hereditary Angioedema (HAE)</a></li></ul></li></ul><ul><li  class=""><a href="our-treatments/compassionate-use-policy/index.html" target="">Compassionate Use Policy</a></li></ul></div></div></li><li  class=""><a href="our-company/index.html" target="">Our Company</a><div><div class="m-auto w-1200 flex"><ul class=''></ul><ul><li  class=""><a href="our-company/about-us/index.html" target="">About Us</a><ul class=''><li  class=""><a href="our-company/about-us/our-history/index.html" target="">Our History</a></li><li  class=""><a href="our-company/about-us/manufacturing-excellence/index.html" target="">Manufacturing Excellence</a></li><li  class=""><a href="our-company/about-us/message-from-chairman-and-ceo/index.html" target="">Message from Chairman and CEO</a></li><li  class=""><a href="our-company/about-us/global-compliance-and-ethics/index.html" target="">Global Compliance &#038; Ethics</a></li></ul></li></ul><ul><li  class=""><a href="our-company/corporate-social-responsibility/index.html" target="">Corporate Social Responsibility</a><ul class=''><li  class=""><a href="our-company/corporate-social-responsibility/diversity-equity-inclusion/index.html" target="">Diversity, Equity &#038; Inclusion</a></li><li  class=""><a href="our-company/corporate-social-responsibility/environmental-health-safety-and-sustainability-ehss/index.html" target="">Environmental Health, Safety & Sustainability (EHS&S)</a></li></ul></li></ul><ul><li  class=""><a href="our-company/leadership-team/index.html" target="">Leadership Team</a><ul class=''><li  class=""><a href="our-company/leadership-team/jean-jacques-bienaime/index.html" target="">Jean-Jacques Bienaimé</a></li><li  class=""><a href="our-company/leadership-team/henry-j-fuchs-m-d/index.html" target="">Henry J. Fuchs, M.D.</a></li><li  class=""><a href="our-company/leadership-team/jeff-ajer/index.html" target="">Jeff Ajer</a></li><li  class=""><a href="our-company/leadership-team/g-eric-davis/index.html" target="">G. Eric Davis</a></li><li  class=""><a href="our-company/leadership-team/dr-c-greg-guyer-ph-d/index.html" target="">C. Greg Guyer, Ph.D.</a></li><li  class=""><a href="our-company/leadership-team/brian-r-mueller/index.html" target="">Brian R. Mueller</a></li><li  class=""><a href="our-company/leadership-team/philip-lo-scalzo/index.html" target="">Philip Lo Scalzo</a></li><li  class=""><a href="our-company/leadership-team/amy-wireman/index.html" target="">Amy Wireman</a></li><li  class=""><a href="our-company/leadership-team/dr-brinda-balakrishnan-m-d-ph-d/index.html" target="">Brinda Balakrishnan, M.D., Ph.D.</a></li></ul></li></ul><ul><li  class=""><a href="our-company/board-of-directors/index.html" target="">Board of Directors</a></li></ul><ul><li  class=""><a href="our-company/funding-support/index.html" target="">Funding &#038; Support</a><ul class=''><li  class=""><a href="our-company/funding-support/independent-medical-education/index.html" target="">Independent Medical Education</a></li><li  class=""><a href="our-company/funding-support/independent-research/index.html" target="">Independent and Collaborative Research</a></li><li  class=""><a href="our-company/funding-support/grants-donations/index.html" target="">Grants &#038; Donations</a></li></ul></li></ul></div></div></li><li  class=""><a href="https://investors.biomarin.com/" target="">Investors & Media</a><div><div class="m-auto w-1200 flex"><ul class=''></ul><ul><li  class=""><a href="https://investors.biomarin.com/press-releases" target="">Press Releases</a></li></ul><ul><li  class=""><a href="https://investors.biomarin.com/events-presentations" target="">Events & Presentations</a></li></ul><ul><li  class=""><a href="https://investors.biomarin.com/corporate-governance" target="">Corporate Governance</a></li></ul><ul><li  class=""><a href="https://investors.biomarin.com/2022-financials" target="">Financial Information</a></li></ul><ul><li  class=""><a href="https://investors.biomarin.com/analyst-coverage" target="">Analyst Coverage</a></li></ul><ul><li  class=""><a href="https://investors.biomarin.com/stock-information" target="">Stock Information</a></li></ul><ul><li  class=""><a href="https://investors.biomarin.com/investor-faqs" target="">Investor FAQs</a></li></ul><ul><li  class=""><a href="https://investors.biomarin.com/contact-us" target="">Contact Us</a></li></ul><ul><li  class=""><a href="https://investors.biomarin.com/email-alerts" target="">Email Alerts</a></li></ul></div></div></li></ul>            						<div class="interactive-icon flex items-center">
+							<span class="search" aria-label="Search Our Website" role="button">Search <span class="sr-only">our website</span></span>
+							<span class="">
+								<div class="menu-icon">
+								    <div></div>
+								    <div></div>
+								    <div></div>
+								</div>
+							</span>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<div class="modal search">
+		<div class="w-1200 m-auto flex justify-between">
+      			<form id="search-form" class="search-form" role="search" method="get" action="https://www.biomarin.com/">
+				<input type="text" placeholder="Search BioMarin.com" value="" name="s" id="s" autofocus>
+				<i></i>
+			</form>
+			<div class="interactive-icon flex items-center">
+				<span class="search active" aria-label="Close">Close</span>
+				<span><input type="submit" value="Search"> </span>
+			</div>
+		</div>
+	</div>
+
+	<div class="mobile-menu">
+          <ul><li><a href="our-motivation/index.html">Our Motivation</a><div class="icon-toggle"></div>
+<ul>
+	<li><a href="our-motivation/patient-stories/index.html">Patient Stories</a></li>
+	<li><a href="our-motivation/diseases-and-conditions/index.html">Diseases &#038; Conditions</a></li>
+	<li><a href="our-motivation/patient-and-community-support/index.html">Patient &#038; Community Support</a></li>
+	<li><a href="our-motivation/resources/index.html">Resource Library</a></li>
+
+</ul></li>
+<li><a href="our-science/index.html">Our Science</a><div class="icon-toggle"></div>
+<ul>
+	<li><a href="our-science/our-approach/index.html">Our Approach</a></li>
+	<li><a href="our-science/our-scientists/index.html">Our Scientists</a></li>
+	<li><a href="our-science/our-publications/index.html">Our Publications</a></li>
+	<li><a href="our-science/spotlight/index.html">Science Spotlight</a></li>
+	<li><a href="our-science/funding-and-support/index.html">Funding &#038; Support</a></li>
+
+</ul></li>
+<li><a href="our-treatments/index.html">Our Treatments</a><div class="icon-toggle"></div>
+<ul>
+	<li><a href="our-treatments/products/index.html">Our Products</a></li>
+	<li><a href="our-treatments/pipeline/index.html">Our Pipeline</a></li>
+	<li><a href="our-treatments/compassionate-use-policy/index.html">Compassionate Use Policy</a></li>
+
+</ul></li>
+<li><a href="our-company/index.html">Our Company</a><div class="icon-toggle"></div>
+<ul>
+	<li><a href="our-company/about-us/index.html">About Us</a></li>
+	<li><a href="our-company/corporate-social-responsibility/index.html">Corporate Social Responsibility</a></li>
+	<li><a href="our-company/leadership-team/index.html">Leadership Team</a></li>
+	<li><a href="our-company/board-of-directors/index.html">Board of Directors</a></li>
+	<li><a href="our-company/funding-support/index.html">Funding &#038; Support</a></li>
+
+</ul></li>
+<li><a href="https://investors.biomarin.com/">Investors &#038; Media</a><div class="icon-toggle"></div>
+<ul>
+	<li><a href="https://investors.biomarin.com/press-releases">Press Releases</a></li>
+	<li><a href="https://investors.biomarin.com/events-presentations">Events &#038; Presentations</a></li>
+	<li><a href="https://investors.biomarin.com/corporate-governance">Corporate Governance</a></li>
+	<li><a href="https://investors.biomarin.com/financial-information">Financial Information</a></li>
+	<li><a href="https://investors.biomarin.com/analyst-coverage">Analyst Coverage</a></li>
+	<li><a href="https://investors.biomarin.com/stock-information">Stock Information</a></li>
+	<li><a href="https://investors.biomarin.com/investor-faqs">Investor FAQs</a></li>
+	<li><a href="https://investors.biomarin.com/contact-us">Contact Us</a></li>
+	<li><a href="https://investors.biomarin.com/email-alerts">Email Alerts</a></li>
+
+</ul></li>
+</ul>    
+		<div class="credits">
+              <ul><li class=""><a target="_blank" href="https://www.medinfoprivacy.com/">Privacy Policy</a></li>
+<li class=""><a target="_blank" href="https://www.medinfoterms.com/">Terms of Use</a></li>
+<li class=""><a target="_blank" href="https://www.linkedin.com/company/biomarin/">LinkedIn</a></li>
+<li class=""><a target="_blank" href="https://www.facebook.com/BioMarinOfficial">Facebook</a></li>
+<li class=""><a href="site-map/index.html">Site Map</a></li>
+<li class=""><a target="_blank" href="https://www.instagram.com/biomarinofficial/">Instagram</a></li>
+<li class=""><a href="supplier-information/index.html">Supplier Information</a></li>
+<li class=""><a target="_blank" href="https://www.youtube.com/channel/UCsJU_aj8_xNFso8ZkfShRJQ/featured">YouTube</a></li>
+<li class=""><a href="glossary/index.html">Glossary</a></li>
+</ul>      
+			<div class="rights">
+				<p>© 2022 BioMarin. All rights reserved.</p>
+			</div>
+		</div>
+	</div>
+
+  
+
+<style>
+.home-feature h2 {
+	font-size: 40px;
+	margin-bottom: 27px;
+}
+</style>
+
+<style>
+	.alt-bg { background: #203880; border-radius: 6px ; padding: 40px 30px 50px; }
+	.alt-bg .btn { background: #ffffff; color: #203880; opacity: 0; }
+	.alt-bg .btn span:after { color: #203880; }
+	.alt-bg h1 { font-size: 2.5vw; }
+	.hero div div:last-child {     width: 50%; }
+	.hero .blurb { max-width: 480px; }
+	.hero .blurb p { font-size: 1em; }
+	@media (max-width: 960px) {
+		.hero .blurb { margin-bottom: 20px; }
+		.hero .w-1\/2 { width: 100% !important; }
+		.hero .blurb { max-width: 100%; }
+	}
+	@media (max-width: 767px) {
+		.hero div .blurb.alt-bg { padding-left: 30px; padding-right: 30px; margin-top: 0;}
+		.alt-bg h1 { font-size: 20px; }
+		.hero div div:last-child { margin-top: 0; }
+	}
+</style>
+
+<div class="hero bg-cover hero-box bg-right-top py-16" style="background-image: url('wp-content/uploads/2022/09/Homepage-Hero_Roctavian-BLA.png')" role="banner">
+<div class="wrap m-auto w-1100 flex justify-between lg:block">
+	<div class="blurb flex-1 alt-bg w-1/2 equal">
+		<h1>The FDA accepted our investigational gene therapy for a genetic bleeding disorder</h1>
+		<a href="https://investors.biomarin.com/2022-10-12-FDA-Accepts-BioMarins-Biologics-License-Application-BLA-for-Valoctocogene-Roxaparvovec-AAV-Gene-Therapy-for-Adults-with-Severe-Hemophilia-A" class="btn mt-10">Learn More&nbsp; <span>⌃</span></a>
+	</div>
+
+</div>
+</div>
+
+
+
+
+<div class="box-shadow w-1400 m-auto">
+	<div class="w-1400 m-auto offset-top">
+		<div class="has-border" style="background-color:transparent;"></div>
+
+		<div class="bg-purp pt-20 md:pt-8">
+			<div class="w-1200 m-auto wrap home-feature">
+					<div class="flex pb-16 lg:flex-col">
+						<div class="rounded w-full max-w-4xl mr-3 img-wrap lg:mb-5">
+							<img src="../d3gxnbsdwzj5tx.cloudfront.net/BioMarin/assets/images/homepage-careers-callout.jpg" alt="Image: Girl on the beach making a heart with her hands">
+						</div>
+				    	<div>
+				    		<div class="card plain-wht rounded-md max-w-4xl pr-0 lg:pl-0">
+				    			<div class="type">CAREERS AT BIOMARIN</div>
+				    			<h2>Our focus on rare disease gives us the rare opportunity to truly <nobr>impact lives.</nobr></h2>
+				    		<a href="https://careers.biomarin.com/" target="_blank" class="btn">Learn More <span class="sr-only">about careers with BioMarin</span> <span>&#8963;</span></a>
+				    		</div>
+				    	</div>
+			    	</div>
+
+			    	<div class="flex pb-16 lg:flex-col-reverse">
+				    	<div>
+				    		<div class="card plain-wht rounded-md max-w-4xl pl-0">
+				    			<div class="type">OUR MOTIVATION</div>
+				    			<h2>We are inspired and driven everyday by stories <nobr>like Sheri’s.</nobr></h2>
+				    			<a href="our-motivation/patient-stories/sheri/index.html" class="btn">Learn More <span class="sr-only">about Sheri</span> <span>&#8963;</span></a>
+				    		</div>
+				    	</div>
+				    	<div class="rounded w-full max-w-4xl mr-3 img-wrap has-clip lg:mb-5">
+							<img src="wp-content/uploads/2020/11/patient-image-sheri-mps-iva.jpg" alt="Image: Sheri">
+						</div>
+			    	</div>
+				</div>
+		</div>
+
+		<div class="pt-16 pb-6 md:pt-8">
+			<div class="flex w-1200 m-auto wrap items-start lg:flex-col">
+					<div class="rounded-md w-full max-w-2xl mr-3 has-clip img-wrap has-bg lg:max-w-full">
+						<img src="../d3gxnbsdwzj5tx.cloudfront.net/BioMarin/assets/images/patient-community-support-callout.jpg" alt="Image: Patient, Juanito">
+					</div>
+		    		<div class="card max-w-2xl bg-white rounded-md lg:max-w-full">
+		    			<div class="type">Patient & Community Support</div>
+		    			<h2>Treatment is only <nobr>the beginning.</nobr></h2>
+		    			<p>We are committed to the communities we treat beyond the therapies <nobr>we develop.</nobr></p>
+		    			<a href="our-motivation/patient-and-community-support/index.html" class="btn">Learn More <span class="sr-only">about our patient support</span> <span>&#8963;</span></a>
+		    		</div>
+		    	</div>
+			</div>
+		</div>
+
+
+	    <div class="p-10 lg:p-6 callout-full mobile-callout-img">
+		    <div class="callout has-gradient gradient-2 gradient-rounded rounded-md bg-right-bottom">
+		    	<div class="py-12">
+		    	<div class="justify-between w-1200 m-auto wrap">
+		    		<div class="card max-w-2xl bg-white rounded-md lg:max-w-full">
+		    			<div class="type">OUR PIPELINE</div>
+		    			<h2>We take on the biggest challenges in rare disease.</h2>
+		    			<p>Each drug candidate we pursue is guided by a fundamental understanding of the genetics and underlying biology of the condition it <nobr>will address.</nobr></p>
+		    			<a href="our-treatments/pipeline/index.html" class="btn">View Now <span>&#8963;</span></a>
+		    		</div>
+		    		<div class="bg-img bg-cover bg-no-repeat" style="background-image: url('../d3gxnbsdwzj5tx.cloudfront.net/BioMarin/assets/images/callout-beakers.jpg')"></div>
+		    	</div>
+		    	</div>
+		    </div>
+	    </div>
+
+
+		
+		<div class="has-feed w-full">
+			<div class="flex py-16 w-1200 m-auto wrap lg:flex-col justify-center">
+					<div class="wrap max-w-4xl lg:pr-0 lg:mb-16">
+						<div class="pre flex justify-between mb-16">
+							<div class="flex self-start">News</div>
+							<div><a href="https://investors.biomarin.com/press-releases" class="btn">View All News <span class="sr-only">and press releases</span><span>&#8963;</span></a></div>
+						</div>
+
+						<ul class="">
+
+														<li>
+								<div class="date">October 12, 2022</div>
+								<a href="https://investors.biomarin.com/2022-10-12-FDA-Accepts-BioMarins-Biologics-License-Application-BLA-for-Valoctocogene-Roxaparvovec-AAV-Gene-Therapy-for-Adults-with-Severe-Hemophilia-A">FDA Accepts BioMarin&#8217;s Biologics License Application (BLA) for Valoctocogene Roxaparvovec AAV Gene Therapy for Adults with Severe Hemophilia A</a>
+							</li>
+														<li>
+								<div class="date">October 6, 2022</div>
+								<a href="https://investors.biomarin.com/2022-10-06-BioMarin-Simplifies-Organizational-Structure-to-Increase-Efficiency">BioMarin Simplifies Organizational Structure to Increase Efficiency</a>
+							</li>
+														<li>
+								<div class="date">October 4, 2022</div>
+								<a href="https://investors.biomarin.com/2022-10-04-BioMarin-to-Host-Third-Quarter-2022-Financial-Results-Conference-Call-and-Webcast-on-Wednesday,-October-26,-at-4-30pm-ET">BioMarin to Host Third Quarter 2022 Financial Results Conference Call and Webcast on Wednesday, October 26, at 4:30pm ET</a>
+							</li>
+														<li>
+								<div class="date">September 29, 2022</div>
+								<a href="https://investors.biomarin.com/2022-09-29-BioMarin-Resubmits-Biologics-License-Application-BLA-for-Valoctocogene-Roxaparvovec-AAV-Gene-Therapy-for-Severe-Hemophilia-A-to-the-FDA">BioMarin Resubmits Biologics License Application (BLA) for Valoctocogene Roxaparvovec AAV Gene Therapy for Severe Hemophilia A to the FDA</a>
+							</li>
+														<li>
+								<div class="date">September 15, 2022</div>
+								<a href="https://investors.biomarin.com/2022-09-15-BioMarins-Gene-Therapy-for-Adults-with-Severe-Hemophilia-A,-ROCTAVIAN-TM-valoctocogene-roxaparvovec-,-Assessed-to-Provide-Substantial-Cost-Savings-Per-Patient-in-a-Preliminary-Independent-Report">BioMarin&#8217;s Gene Therapy for Adults with Severe Hemophilia A, ROCTAVIAN™ (valoctocogene roxaparvovec), Assessed to Provide Substantial Cost Savings Per Patient in a Preliminary Independent Report</a>
+							</li>
+														<li>
+								<div class="date">August 24, 2022</div>
+								<a href="https://investors.biomarin.com/2022-08-24-First-Gene-Therapy-for-Adults-with-Severe-Hemophilia-A,-BioMarins-ROCTAVIAN-TM-valoctocogene-roxaparvovec-,-Approved-by-European-Commission-EC">First Gene Therapy for Adults with Severe Hemophilia A, BioMarin&#8217;s ROCTAVIAN™ (valoctocogene roxaparvovec), Approved by European Commission (EC)</a>
+							</li>
+														<li>
+								<div class="date">August 3, 2022</div>
+								<a href="https://investors.biomarin.com/2022-08-03-BioMarin-Announces-Record-Revenues-in-Second-Quarter-2022-Increases-Full-year-2022-Top-and-Bottom-line-Guidance">BioMarin Announces Record Revenues in Second Quarter 2022; Increases Full-year 2022 Top and Bottom-line Guidance</a>
+							</li>
+														<li>
+								<div class="date">July 20, 2022</div>
+								<a href="https://investors.biomarin.com/2022-07-20-BioMarin-to-Host-Second-Quarter-2022-Financial-Results-Conference-Call-and-Webcast-on-Wednesday,-August-3,-at-4-30pm-ET">BioMarin to Host Second Quarter 2022 Financial Results Conference Call and Webcast on Wednesday, August 3, at 4:30pm ET</a>
+							</li>
+							
+						</ul>
+
+				</div>
+
+
+			</div>
+		</div>
+		
+
+	</div>
+</div>
+
+
+<footer id="footer" class="" role="contentinfo">
+
+	<div class="w-1400 m-auto">
+
+		<div class="flex justify-between py-16 w-1200 m-auto wrap xl:flex-col">
+						<div><a href="index.html">
+						<img src="wp-content/uploads/logo.jpeg" alt="Image: BioMarin logo" width="230" />
+			<span class="sr-only">Home</span>
+		  </a></div>
+			<div class="flex flex-1 justify-between max-w-4xl pr-16 -mt-1 flex-wrap xl:pr-0 xl:mt-10 xl:max-w-full">
+
+												<ul>
+					<li>Navigate</li>		        <li class=""><a href="our-motivation/index.html">Our Motivation</a></li>
+<li class=""><a href="our-science/index.html">Our Science</a></li>
+<li class=""><a href="our-treatments/index.html">Our Treatments</a></li>
+<li class=""><a href="our-company/index.html">Our Company</a></li>
+<li class=""><a href="https://investors.biomarin.com/">Investors &#038; Media</a></li>
+				</ul>
+												<ul>
+					<li>About</li>					<li class=""><a href="our-company/about-us/our-history/index.html">Our History</a></li>
+<li class=""><a href="our-treatments/products/index.html">Our Products</a></li>
+<li class=""><a href="our-treatments/pipeline/index.html">Our Pipeline</a></li>
+<li class=""><a href="our-company/leadership-team/index.html">Leadership Team</a></li>
+<li class=""><a href="our-company/board-of-directors/index.html">Board of Directors</a></li>
+<li class=""><a href="our-company/corporate-social-responsibility/diversity-equity-inclusion/index.html">Diversity, Equity &#038; Inclusion</a></li>
+				</ul>
+												<ul>
+					<li>Contact</li>					<li class=""><a href="contact-us/index.html">Global Contact Information</a></li>
+<li class=""><a href="contact-us/locations/index.html">Our Locations</a></li>
+<li class=""><a href="contact-us/report-product-complaint/index.html">Report a Product Complaint</a></li>
+<li class=""><a href="contact-us/report-adverse-event/index.html">Report Adverse Event</a></li>
+<li class=""><a href="our-science/funding-and-support/publication-data-request/index.html">Publication Data Request</a></li>
+<li class=""><a href="contact-us/global-medical-information/index.html">Submit a Medical Information Inquiry</a></li>
+<li class=""><a href="our-science/funding-and-support/index.html">Funding &#038; Support</a></li>
+				</ul>
+												<ul>
+					<li>Connect</li>					<li class=""><a target="_blank" href="https://careers.biomarin.com/">Careers</a></li>
+<li class=""><a target="_blank" href="https://www.linkedin.com/company/biomarin/?viewAsMember=true">LinkedIn</a></li>
+<li class=""><a target="_blank" href="https://www.facebook.com/BioMarinOfficial">Facebook</a></li>
+<li class=""><a target="_blank" href="https://www.instagram.com/biomarinofficial/">Instagram</a></li>
+<li class=""><a target="_blank" href="https://www.youtube.com/channel/UCsJU_aj8_xNFso8ZkfShRJQ/featured">YouTube</a></li>
+				</ul>
+							</div>
+		</div>
+
+
+		<div class="credits pt-8">
+			<div class="flex justify-between w-1200 m-auto items-center">
+
+					        <ul class="flex m-auto lg:w-full"><li class=""><a target="_blank" href="https://www.medinfoprivacy.com/">Privacy Policy</a></li>
+<li class=""><a target="_blank" href="https://www.medinfoterms.com/">Terms of Use</a></li>
+<li class=""><a href="site-map/index.html">Site Map</a></li>
+<li class=""><a href="suppliers/index.html">Supplier Information</a></li>
+<li class=""><a target="_blank" href="wp-content/uploads/2022/05/Modern-Slavery-Act-UK-and-CA-Statement-2022.docx.pdf">Slavery Act Statement</a></li>
+<li class=""><a href="glossary/index.html">Glossary</a></li>
+<li class=""><a href="contact-us/index.html">Contact Us</a></li>
+</ul>	      			</div>
+			<div class="w-1200 m-auto mt-5 text-center lg:text-left">
+				<p>
+					©  <a href="https://www.myknot.club/">MyKnot</a>. All rights reserved.					
+				</p>
+			</div>
+			<div class="has-border mt-8"></div>
+		</div>
+
+	</div>
+</footer>
+
+</div><!-- ends box-shadow wrap -->
+<div id="mask"></div>
+
+
+
+<div class="wt-cli-cookie-bar-container" data-nosnippet="true"><!--googleoff: all--><div id="cookie-law-info-bar" role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="wt-cli-cookie-banner" data-cli-geo-loc="0" style="text-align:left; padding:15px 30px;" class="wt-cli-cookie-bar"><div class="cli-wrapper"><span id="wt-cli-cookie-banner"><div class="cli-bar-container cli-style-v2"><div class="cli-bar-message">We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking “Accept”, you consent to the use of ALL the cookies. However you may visit Cookie Settings to provide a controlled consent.</div><div class="cli-bar-btn_container"><a id="wt-cli-settings-btn" tabindex="0" role='button' style="border-bottom:1px solid; text-decoration:none; text-decoration:none;" class="wt-cli-element cli_settings_button"  >Cookie settings</a><a id="wt-cli-accept-btn" tabindex="0" role='button' style="margin:5px 5px 5px 30px; border-radius:0; padding:8px 25px 8px 25px;" data-cli_action="accept"  class="wt-cli-element medium cli-plugin-button cli-plugin-main-button cookie_action_close_header cli_action_button" >ACCEPT</a></div></div></span></div></div><div tabindex="0" id="cookie-law-info-again" style="display:none;"><span id="cookie_hdr_showagain">Manage consent</span></div><div class="cli-modal" id="cliSettingsPopup" role="dialog" aria-labelledby="wt-cli-privacy-title" tabindex="-1" aria-hidden="true">
+  <div class="cli-modal-dialog" role="document">
+    <div class="cli-modal-content cli-bar-popup">
+      <button aria-label="Close" type="button" class="cli-modal-close" id="cliModalClose">
+      <svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"></path><path d="M0 0h24v24h-24z" fill="none"></path></svg>
+      <span class="wt-cli-sr-only">Close</span>
+      </button>
+        <div class="cli-modal-body">
+
+    <div class="wt-cli-element cli-container-fluid cli-tab-container">
+        <div class="cli-row">
+                            <div class="cli-col-12 cli-align-items-stretch cli-px-0">
+                    <div class="cli-privacy-overview">
+                        <h4 id='wt-cli-privacy-title'>Manage Cookie Preferences</h4>                        <div class="cli-privacy-content">
+                            <div class="cli-privacy-content-text">We use cookies to help personalize content, measure advertisements, and provide a safer user experience. Please select which cookies you wish to allow below. For more information, see our Privacy Policy.</div>
+                        </div>
+                        <a id="wt-cli-privacy-readmore"  tabindex="0" role="button" class="cli-privacy-readmore" data-readmore-text="Show more" data-readless-text="Show less"></a>                    </div>
+                </div>
+                        <div class="cli-col-12 cli-align-items-stretch cli-px-0 cli-tab-section-container" role="tablist">
+
+                
+                                    <div class="cli-tab-section">
+                        <div class="cli-tab-header">
+                            <a id="wt-cli-tab-link-necessary" tabindex="0" role="tab" aria-expanded="false" aria-describedby="wt-cli-tab-necessary" aria-controls="wt-cli-tab-necessary" class="cli-nav-link cli-settings-mobile" data-target="necessary" data-toggle="cli-toggle-tab">
+                                Functional Cookies                            </a>
+                                                                                        <div class="wt-cli-necessary-checkbox">
+                                    <input type="checkbox" class="cli-user-preference-checkbox" id="wt-cli-checkbox-necessary" aria-label="Functional Cookies" data-id="checkbox-necessary" checked="checked" />
+                                    <label class="form-check-label" for="wt-cli-checkbox-necessary"> Functional Cookies </label>
+                                </div>
+                                <span class="cli-necessary-caption">
+                                    Always Enabled                                </span>
+                                                    </div>
+                        <div class="cli-tab-content">
+                            <div id="wt-cli-tab-necessary" tabindex="0" role="tabpanel" aria-labelledby="wt-cli-tab-link-necessary" class="cli-tab-pane cli-fade" data-id="necessary">
+                            <div class="wt-cli-cookie-description">Some cookies, called functional cookies, are necessary for the website to run, and thus are always running. They do not gather information about you that could be used for advertising purposes and do not remember where you have been on the internet. Other cookies, called analytics cookies and advertising/marketing cookies, are optional.</div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="cli-tab-section">
+                        <div class="cli-tab-header">
+                            <a id="wt-cli-tab-link-non-necessary" tabindex="0" role="tab" aria-expanded="false" aria-describedby="wt-cli-tab-non-necessary" aria-controls="wt-cli-tab-non-necessary" class="cli-nav-link cli-settings-mobile" data-target="non-necessary" data-toggle="cli-toggle-tab">
+                                Analytics Cookies                            </a>
+                                                                                        <div class="cli-switch">
+                                    <input type="checkbox" class="cli-user-preference-checkbox"  id="wt-cli-checkbox-non-necessary" aria-label="non-necessary" data-id="checkbox-non-necessary" role="switch" aria-controls="wt-cli-tab-link-non-necessary" aria-labelledby="wt-cli-tab-link-non-necessary"  />
+                                    <label for="wt-cli-checkbox-non-necessary" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">non-necessary</span></label>
+                                </div>
+                                                    </div>
+                        <div class="cli-tab-content">
+                            <div id="wt-cli-tab-non-necessary" tabindex="0" role="tabpanel" aria-labelledby="wt-cli-tab-link-non-necessary" class="cli-tab-pane cli-fade" data-id="non-necessary">
+                            <div class="wt-cli-cookie-description">We use Google Analytics cookies to collect information in the aggregate to give us insight into how our website is being used. We anonymise IP addresses in Google Analytics, and the anonymised data are transmitted to and stored by Google on servers in the U.S. Google may also transfer this information to third parties where required by law, or where third parties process the information on Google’s behalf. Google will not associate your IP address with any other data held by Google.</div>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="cli-modal-footer">
+    <div class="wt-cli-element cli-container-fluid cli-tab-container">
+        <div class="cli-row">
+            <div class="cli-col-12 cli-align-items-stretch cli-px-0">
+                <div class="cli-tab-footer wt-cli-privacy-overview-actions">
+                    
+                        
+                                                    <a id="wt-cli-privacy-save-btn" role="button" tabindex="0" data-cli-action="accept" class="wt-cli-privacy-btn cli_setting_save_button wt-cli-privacy-accept-btn cli-btn">Save & Accept</a>
+                                                                    
+                </div>
+                            </div>
+        </div>
+    </div>
+</div>
+    </div>
+  </div>
+</div>
+<div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
+<div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
+<!--googleon: all--></div>
+		<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+		/* <![CDATA[ */
+			cli_cookiebar_settings='{"animate_speed_hide":"500","animate_speed_show":"500","background":"#fffffff7","border":"#b1a6a6c2","border_on":false,"button_1_button_colour":"#203880","button_1_button_hover":"#1a2d66","button_1_link_colour":"#fff","button_1_as_button":true,"button_1_new_win":false,"button_2_button_colour":"#ffffff","button_2_button_hover":"#cccccc","button_2_link_colour":"#898888","button_2_as_button":false,"button_2_hidebar":false,"button_2_nofollow":false,"button_3_button_colour":"#203880","button_3_button_hover":"#1a2d66","button_3_link_colour":"#fff","button_3_as_button":true,"button_3_new_win":false,"button_4_button_colour":"#ffffff","button_4_button_hover":"#cccccc","button_4_link_colour":"#898888","button_4_as_button":false,"button_7_button_colour":"#203880","button_7_button_hover":"#1a2d66","button_7_link_colour":"#fff","button_7_as_button":true,"button_7_new_win":false,"font_family":"inherit","header_fix":false,"notify_animate_hide":true,"notify_animate_show":false,"notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"bottom","scroll_close":false,"scroll_close_reload":false,"accept_close_reload":false,"reject_close_reload":false,"showagain_tab":false,"showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#333","show_once_yn":false,"show_once":"10000","logging_on":false,"as_popup":false,"popup_overlay":true,"bar_heading_text":"","cookie_bar_as":"banner","cookie_setting_popup":true,"accept_all":true,"js_script_blocker":false,"popup_showagain_position":"bottom-right","widget_position":"left","button_1_style":[["margin","5px 5px 5px 30px"],["border-radius","0"],["padding","8px 25px 8px 25px"]],"button_2_style":[],"button_3_style":[["margin","5px 5px 5px 5px"],["border-radius","0"],["padding","8px 25px 8px 25px"]],"button_4_style":[["border-bottom","1px solid"],["text-decoration","none"],["text-decoration","none"]],"button_5_style":[["float","right"],["text-decoration","none"],["color","#333"]],"button_7_style":[["margin","5px 5px 5px 30px"],["border-radius","0"],["padding","8px 25px 8px 25px"]],"accept_close_page_navigation":false}';
+		/* ]]> */
+		</script>
+		<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-content/themes/biomarin/build/js/app.js' id='app-js' defer></script>
+
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">	
+	$('.internal-menu').find('.page-title').click(function() {		
+		$(this).toggleClass('active');
+		$(this).next().slideToggle();
+		$(this).parent().prevAll('li').find('.page-title').next().slideUp();
+		$(this).parent().nextAll('li').find('.page-title').next().slideUp();
+		$(this).parent().prevAll('li').find('.page-title').removeClass('active');
+		$(this).parent().nextAll('li').find('.page-title').removeClass('active');
+	});
+	$(".toggle-locations ul li").each(function() {
+	  $(this).attr("id", $(this).attr("id").replace(/ /g, '-'));
+	});
+	
+	/*$('.toggle-locations .toggle.icon').click(function() {
+		$(this).next().slideToggle();
+		console.log('clicked');
+	});*/
+	
+</script>
+
+</body>
+
+<!-- Mirrored from www.biomarin.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 23 Oct 2022 14:41:21 GMT -->
+</html>
+
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1666523862 -->
